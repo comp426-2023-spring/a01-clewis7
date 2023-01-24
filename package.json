@@ -1,8 +1,8 @@
 {
-  "name": "a01-clewis7-webserver",
-  "version": "1.0.0",
-  "description": "This assignment will help you get started working with Node.js by hacking your way through creating a webserver from scratch.",
-  "main": "server.js",
+  "name": "a01-clewis7",
+  "version": "0.0.1",
+  "description": "COMP 426 A01 - create a webserver.",
+  "main": "index.js",
   "scripts": {
     "test": "node server.js --port=5555"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/comp426-2023-spring/a01-clewis7.git"
   },
   "author": "clewis7",
-  "license": "AGPL-3.0-or-later",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a01-clewis7/issues"
   },
