@@ -15,11 +15,12 @@ const hostname = '127.0.0.1';
 // The function must read a file located at `./public/index.html` and do some stuff with it.
 // The stuff that should be inside this function is all below.
 
-fs.readFile('./publix/index.html', (err, data) => {
-  if (err){
-	console.error();
-        return;
-	}
+fs.readFile('./public/index.html', (err, data) => {
+	if (err){
+		console.error();
+			return;
+		}
+	// console.log(data)	
 });
 
 const server = http.createServer((req, res) => {
